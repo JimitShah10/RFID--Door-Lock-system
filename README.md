@@ -2,9 +2,13 @@
 This is a RFID door lock system using NodeMCU which stores its data to Firebase(Online database) 
 ## Components Needed
 1.MFRC RC522(RFID Reader) with RFID Cards/Tags
+
 2.NodeMCU
+
 3.Bread board
+
 4.Jumper Wires
+
 5.USB cable
 
 Download and install the libraries by following the below links:
