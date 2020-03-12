@@ -1,5 +1,5 @@
 # RFID--Door-Lock-system
-This is a RFID door lock system using NodeMCU which stores its data to Firebase(Online database) 
+This is a RFID door lock system using NodeMCU which stores its data to Firebase(Online database). 
 ## Components Needed
 1.MFRC RC522(RFID Reader) with RFID Cards/Tags  
 2.NodeMCU  
@@ -8,9 +8,14 @@ This is a RFID door lock system using NodeMCU which stores its data to Firebase(
 5.USB cable  
 
 Download and install the libraries by following the below links:  
+Firebase:  
 https://github.com/FirebaseExtended/firebase-arduino/blob/master/src/Firebase.h
-## Connection
 
+MFRC RC522:  
+https://github.com/miguelbalboa/rfid
+
+ESP8266:    
+https://github.com/esp8266/Arduino  
 ## Setting Up Firebase Console
 If you are using Firebase first time then you may take some time to setting it up. Have patience and follow these steps.
 
@@ -37,7 +42,6 @@ You have successfully created your project. Look for the Host Name and Authoriza
 20. This is your “FIREBASE_HOST” string which we have written in Arduino program above  
 21. You can explore the firebase but let’s finish the tutorial first.  
 Now put “FIREBASE_HOST” and “FIREBASE_AUTH” in Arduino program and upload the sketch. And we are done with setting up both sections. Complete Arduino Program is given at the end.  
-
 ## How to use this.
 Once you are all set with components please follow simple steps mentioned below:  
 -Connect NodeMCU with Computer.  
