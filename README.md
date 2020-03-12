@@ -17,7 +17,7 @@ https://github.com/FirebaseExtended/firebase-arduino/blob/master/src/Firebase.h
 ## Setting up Firebase
 Once you are all set with components please follow simple steps mentioned below:
 
-Connect NodeMCU with Computer.  
+Connect NodeMCU with Computer. 
 Open Arduino IDE. 
 Goto ‘Tools’ and Select ‘Boards’. 
 In board’s section, select ‘NodeMCU V1.0 (ESP-12E Module)’. 
